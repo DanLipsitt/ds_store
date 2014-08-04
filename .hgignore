@@ -3,6 +3,7 @@ syntax: glob
 *.pyc
 .DS_Store
 *.egg
+.tox
 
 syntax:regexp
 ^ds_store.egg-info/
