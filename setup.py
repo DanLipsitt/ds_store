@@ -29,7 +29,13 @@ __ http://search.cpan.org/~wiml/Mac-Finder-DSStore/DSStoreFormat.pod
       install_requires=[
           'biplist >= 0.6',
           'six >= 1.4.1'
-          ],
+      ],
+      setup_requires=[
+          'nose>=1.1.3',
+      ],
+      tests_require=[
+          'mock>=1.0.1',
+      ],
       provides=[
           'ds_store'
-          ])
+      ])

@@ -2,6 +2,7 @@ syntax: glob
 *~
 *.pyc
 .DS_Store
+*.egg
 
 syntax:regexp
 ^ds_store.egg-info/
